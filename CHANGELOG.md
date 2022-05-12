@@ -6,9 +6,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Added
+### Changed
+### Fixed
+
+## [0.1.0] - 2022-05-12
+### Added
 - ESLint
 - Prettier
 - GitHub Actions CI setup
+- Header title and subtitle
 ### Changed
 ### Fixed
 
