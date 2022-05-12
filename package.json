@@ -1,0 +1,21 @@
+{
+  "name": "matejb6.github.io",
+  "version": "0.0.0",
+  "author": {
+    "name": "Matej Buljan",
+    "email": "matejb6@icloud.com"
+  },
+  "description": "My GitHub Pages repo",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "matejb6",
+    "Matej",
+    "Buljan",
+    "Profile",
+    "GitHub",
+    "Pages"
+  ],
+  "license": "ISC"
+}
