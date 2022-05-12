@@ -5,9 +5,17 @@
     "name": "Matej Buljan",
     "email": "matejb6@icloud.com"
   },
-  "description": "My GitHub Pages repo",
+  "description": "My GitHub Pages profile",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npx eslint ./src"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.0",
+    "eslint-plugin-promise": "^6.0.0"
   },
   "keywords": [
     "matejb6",
@@ -16,6 +24,5 @@
     "Profile",
     "GitHub",
     "Pages"
-  ],
-  "license": "ISC"
+  ]
 }
