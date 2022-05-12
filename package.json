@@ -8,9 +8,9 @@
   "description": "My GitHub Pages profile",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "npx eslint ./src",
-    "prettier:check": "npx prettier --check ./src",
-    "prettier:write": "npx prettier --write ./src"
+    "lint": "npx eslint ./docs",
+    "prettier:check": "npx prettier --check ./docs",
+    "prettier:write": "npx prettier --write ./docs"
   },
   "devDependencies": {
     "eslint": "^8.15.0",
