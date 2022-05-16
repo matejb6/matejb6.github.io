@@ -1,4 +1,9 @@
-document.addEventListener('DOMContentLoaded', () => {
+import { appendChildElem } from '../shared/utils/util.js';
+
+/**
+ * @description DOM content loaded event listener, main entry point of dynamic content loading
+ */
+const domContentLoadedEventListener = () => {
   console.log('matejb6 GitHub Pages profile web page loaded');
 
   const rootElem = document.getElementById('root');
@@ -10,19 +15,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const headerSubtitleElem = appendChildElem(headerElem, 'h3', 'header-subtitle', ['header-subtitle']);
   headerSubtitleElem.innerHTML = '&#129489;&#8205;&#128187; Currently in works...';
-});
-
-/**
- * @param {HTMLElement} parentElem Parent element
- * @param {string} newElemTag New element tag
- * @param {string} newElemId New element ID
- * @param {string[]} newElemClassList New element class list
- * @returns {HTMLElement} Appended child element
- * @description Creates and appends new child element to parent element
- */
-const appendChildElem = (parentElem, newElemTag, newElemId, newElemClassList) => {
-  const newElem = document.createElement(newElemTag);
-  newElem.id = newElemId;
-  newElem.classList = newElemClassList;
-  return parentElem.appendChild(newElem);
 };
+
+document.addEventListener('DOMContentLoaded', domContentLoadedEventListener);
