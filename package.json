@@ -9,9 +9,9 @@
   "scripts": {
     "serve": "npx serve",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "npx eslint ./docs",
-    "prettier:check": "npx prettier --check ./docs",
-    "prettier:write": "npx prettier --write ./docs"
+    "lint": "npx eslint ./src",
+    "prettier:check": "npx prettier --check ./src",
+    "prettier:write": "npx prettier --write ./src"
   },
   "devDependencies": {
     "eslint": "^8.15.0",
