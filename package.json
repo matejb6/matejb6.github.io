@@ -8,11 +8,11 @@
   "description": "My GitHub Pages profile",
   "scripts": {
     "serve": "npx serve",
-    "test": "karma start --browsers=Chrome",
-    "test:ci": "karma start --browsers=ChromeHeadless --reporters=spec --single-run",
     "lint": "npx eslint ./src",
     "prettier:check": "npx prettier --check ./src",
-    "prettier:write": "npx prettier --write ./src"
+    "prettier:write": "npx prettier --write ./src",
+    "test": "karma start --browsers=Chrome",
+    "test:ci": "karma start --browsers=ChromeHeadless --reporters=spec --single-run"
   },
   "devDependencies": {
     "eslint": "^8.15.0",
