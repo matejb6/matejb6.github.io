@@ -1,5 +1,9 @@
 # matejb6.github.io
 
+![GitHub package.json version](https://img.shields.io/github/package-json/v/matejb6/matejb6.github.io)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/matejb6/matejb6.github.io/CI)
+![GitHub repo size](https://img.shields.io/github/repo-size/matejb6/matejb6.github.io)
+
 ## About
 My GitHub Pages profile. This site is used to showcase my skills and interests.
 
@@ -9,6 +13,11 @@ CI is run by GitHub Actions. See `.github/workflows/main.yml` for further detail
 
 ## Setup
 * In project root run `npm install` to install deps
+
+## Start
+* In project root run `npm run serve` to start dev server
+* Navigate to `http://localhost:3000/`
+* Reload manually after saving source files changes
 
 ## Lint
 * In project root run `npm run lint` to lint the project
