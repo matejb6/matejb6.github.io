@@ -30,3 +30,14 @@ jobs:
         run: npm ci
       - name: Prettier
         run: npm run prettier:check
+
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup
+        run: npm ci
+      - name: Test
+        run: npm run test:ci
