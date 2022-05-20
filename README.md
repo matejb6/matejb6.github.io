@@ -7,7 +7,6 @@
 ## About
 My GitHub Pages profile. This site is used to showcase my skills and interests.
 
-
 ## CI setup
 CI is run by GitHub Actions. See `.github/workflows/main.yml` for further details.
 
@@ -25,6 +24,11 @@ CI is run by GitHub Actions. See `.github/workflows/main.yml` for further detail
 ## Prettier
 * In project root run `npm run prettier:check` to check if files are formatted
 * In project root run `npm run prettier:write` to format files
+
+## Test
+* In project root run `npm test` to execute the unit tests via [Karma](https://karma-runner.github.io)
+* In project root run `npm test:ci` to execute the unit tests in headless mode
+* In project root run `npm test:coverage` to execute the unit tests in headless mode with coverage
 
 ## Release
 * In project root run `npm version major|minor|patch` to bump version
