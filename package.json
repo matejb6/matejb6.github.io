@@ -8,11 +8,14 @@
   "description": "My GitHub Pages profile",
   "scripts": {
     "serve": "npx serve",
-    "lint": "npx eslint ./src",
     "prettier:check": "npx prettier --check ./src",
     "prettier:write": "npx prettier --write ./src",
+    "lint": "npx eslint ./src",
     "test": "karma start --browsers=Chrome",
-    "test:ci": "karma start --browsers=ChromeHeadless --reporters=spec --single-run"
+    "test:ci": "karma start --browsers=ChromeHeadless --reporters=spec --single-run",
+    "version:major": "npm version major",
+    "version:minor": "npm version minor",
+    "version:patch": "npm version patch"
   },
   "devDependencies": {
     "eslint": "^8.15.0",
@@ -39,5 +42,9 @@
     "GitHub",
     "Pages"
   ],
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 6.0.0"
+  },
   "license": "MIT"
 }
