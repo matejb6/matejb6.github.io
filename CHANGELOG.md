@@ -9,6 +9,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 ### Fixed
 
+## [0.2.0] - 2022-05-27
+### Added
+- Javascript modules (ES modules)
+- Serve package and local development from server
+- Favicon
+- License
+- Shields.io badges
+- Tests with Karma and Jasmine
+- Husky pre commit hooks
+### Changed
+- Index.html to root due to GitHub Pages setup
+- Docs/ renamed to src/
+- Other folders and files reorganized
+
 ## [0.1.0] - 2022-05-12
 ### Added
 - ESLint
