@@ -7,6 +7,10 @@
 ## About
 My GitHub Pages profile. This site is used to showcase my skills and interests.
 
+## Requirements
+* node.js v14.0 and higher
+* npm v6.0 and higher
+
 ## CI setup
 CI is run by GitHub Actions. See `.github/workflows/main.yml` for further details.
 
@@ -18,21 +22,20 @@ CI is run by GitHub Actions. See `.github/workflows/main.yml` for further detail
 * Navigate to `http://localhost:3000/`
 * Reload manually after saving source files changes
 
-## Lint
-* In project root run `npm run lint` to lint the project
-
 ## Prettier
 * In project root run `npm run prettier:check` to check if files are formatted
 * In project root run `npm run prettier:write` to format files
 
+## Lint
+* In project root run `npm run lint` to lint the project
+
 ## Test
 * In project root run `npm test` to execute the unit tests via [Karma](https://karma-runner.github.io)
 * In project root run `npm test:ci` to execute the unit tests in headless mode
-* In project root run `npm test:coverage` to execute the unit tests in headless mode with coverage
 
-## Release
-* In project root run `npm version major|minor|patch` to bump version
-* Go to GitHub Releases to make a new release
+## New version and release
+* In project root run `npm run version:major` or `npm run version:minor` or `npm run version:patch` to create new version
+* Go to GitHub Releases to make a new release with changelog notes
 
 ## Developer
 **Matej Buljan**
