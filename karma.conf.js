@@ -8,7 +8,12 @@ module.exports = function (config) {
       require('karma-jasmine-html-reporter'),
       require('karma-spec-reporter')
     ],
-    files: ['./src/**/*.spec.js'],
+    files: [
+      {
+        pattern: './src/**/*.js',
+        type: 'module'
+      }
+    ],
     client: {
       clearContext: false
     },
