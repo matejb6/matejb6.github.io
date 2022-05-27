@@ -8,13 +8,15 @@ const domContentLoadedEventListener = () => {
 
   const rootElem = document.getElementById('root');
 
-  const headerElem = appendChildElem(rootElem, 'header', 'header', ['header']);
+  if (rootElem) {
+    const headerElem = appendChildElem(rootElem, 'header', 'header', ['header']);
 
-  const headerTitleElem = appendChildElem(headerElem, 'h1', 'header-title', ['header-title']);
-  headerTitleElem.innerText = 'My GitHub Pages profile';
+    const headerTitleElem = appendChildElem(headerElem, 'h1', 'header-title', ['header-title']);
+    headerTitleElem.innerText = 'My GitHub Pages profile';
 
-  const headerSubtitleElem = appendChildElem(headerElem, 'h3', 'header-subtitle', ['header-subtitle']);
-  headerSubtitleElem.innerHTML = '&#129489;&#8205;&#128187; Currently in works...';
+    const headerSubtitleElem = appendChildElem(headerElem, 'h3', 'header-subtitle', ['header-subtitle']);
+    headerSubtitleElem.innerHTML = '&#129489;&#8205;&#128187; Currently in works...';
+  }
 };
 
 document.addEventListener('DOMContentLoaded', domContentLoadedEventListener);
