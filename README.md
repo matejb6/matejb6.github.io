@@ -17,6 +17,11 @@ CI is run by GitHub Actions. See `.github/workflows/main.yml` for further detail
 ## Setup
 * In project root run `npm install` to install deps
 
+## Pre commit hooks
+Pre commit hooks are used to check code with Prettier and ESLint.
+Before each commit, staged files will be checked with prettier and lint scripts and committing of unchecked code will be prevented.
+To commit code successfully, check `Prettier` and `Lint` paragraphs of this file.
+
 ## Start
 * In project root run `npm run serve` to start dev server
 * Navigate to `http://localhost:3000/`
